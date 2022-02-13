@@ -1,0 +1,174 @@
+:root {
+    --primary-color: #19aec2;
+    --secondary-color: #f6c31a;
+    --gray-color: #9a9483;
+    --light-color: #fdfaf6;
+    --blue-color: #2d576d;
+}
+
+.container {
+    width: 80%;
+}
+
+.title {
+    color: var(--primary-color);
+}
+
+.title__span {
+    color: var(--secondary-color);
+}
+
+.intro {
+    color: var(--gray-color);
+}
+
+.box {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.IP {
+    color: var(--blue-color);
+}
+
+.fires1 {
+    width: 55%;
+}
+
+.smaller {
+    width: 40%;
+}
+
+.smallers {
+    width: 13%
+}
+
+.left {
+    row-gap: 1rem;
+    border-right: 3px dashed var(--primary-color);
+}
+
+.info-img {
+    width: 70%;
+}
+
+.info-img--medium {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: 20%;
+}
+
+.info-img--small {
+    width: 15%;
+}
+
+.info-img--smaller {
+    width: 10%;
+}
+
+.paragraph {
+    color: var(--primary-color);
+}
+
+.primary-clr {
+    color: var(--primary-color);
+}
+
+.secondary-clr {
+    color: var(--secondary-color);
+}
+
+.fs-7 {
+    font-size: 2rem;
+}
+
+.fs-8 {
+    font-size: 3rem;
+}
+
+.row-gap-1rem {
+    row-gap: 1rem;
+}
+
+.column-gap-1rem {
+    -webkit-column-gap: 0.5rem;
+    column-gap: 1rem;
+}
+
+.column-gap-2rem {
+    -webkit-column-gap: 1rem;
+    column-gap: 2rem;
+}
+
+.width-auto {
+    width: auto;
+}
+
+.height-4rem {
+    height: 4rem;
+}
+
+.healthy__banner {
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+}
+
+.disease__img {
+    border: 3px solid var(--blue-color);
+    border-radius: 50%;
+    height: 6rem;
+    width: auto;
+    padding: 4px;
+}
+
+.lh-1rem {
+    line-height: 1rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .left {
+        border-right: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
+    .left {
+        border-right: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 100%;
+    }
+    .left {
+        border-right: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+    .left {
+        border-right: none;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .left {
+        border-right: none;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */
